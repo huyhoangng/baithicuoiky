@@ -12,8 +12,6 @@ void main(){
     printf("\n+num2:");
     scanf("%d",&num2);
     for (num=num1;num<num2;num++){
-
-
     sum=num%2;
     if (sum==0) {
         printf("\nThe even number between %d and %d is\n", num1, num2);
