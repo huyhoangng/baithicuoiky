@@ -12,7 +12,7 @@ void main(){
     scanf("%d",&num1);
     printf("\n+num2:");
     scanf("%d",&num2);
-    for (num=num1;num<num2;num++){
+    for (num=num1+1;num<num2;num++){
         sum=isEvenNumber(num);
         if(sum==0)
             printf("The even number between %d and %d is %d\n",num1,num2,num);
